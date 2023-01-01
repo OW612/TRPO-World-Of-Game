@@ -1,0 +1,109 @@
+/*Каркас сайта*/
+body {padding:0px; margin:0; background: url("images/Fonspace.jpg"); background-attachment: fixed; /*Фиксируем фон веб-страницы */ font-size:14px; font-family:Arial, Sans-serif;}
+
+/*Шапка сайта*/
+#back {width:610px; height:3100px; margin:0 auto; padding:5px 5px; background:#1F1F1F;}
+#back2 {width:780px; height:500px; margin:0 auto; padding:5px 5px; background:#1F1F1F;}
+#backzapis {width:780px; height:500px; margin:0 auto; margin-left: 20%; padding:5px 5px; background:#1F1F1F;}
+#podval {width:1000px; height:60px; margin:0 auto; padding:10px 10px; background:#000000;}
+#head-site {width:1000px; height:142px; margin:0 auto; padding:5px; background:#000000;}
+#head-site_bord {width:98.3%; height:117px; background:#000000; border:3px solid #8025C7; padding:10px;}
+#first_text_box {width:350px; height:90px; background:#000000; border:2px solid #8025C7; border-radius:5px; padding:15px 12px;}
+#menu_out {width:175px; height:270px; margin-left:82%; margin-top: 20px; padding:5px; background:#000000; position: absolute; top: 152px;}
+#menu_in {width:92%; height:95%; padding:5px; background:#000000; border:2px solid #8025C7;}
+#Button_Record {width:155px; height:30px; margin-top: 20px; border:1px solid #FFFFFF; padding:5px; background:#FF0000;}
+#podvalleft {width:165px; height:60px; margin-top: 330px; background:#000000;}
+#formenu {width:99%; height:40px; background:#000000;}
+#podvaldown {width:300px; height:70px; background:#000000; margin-top: -5px;}
+#podvaldown_text {width:60px; height:40px; margin-left:400px; padding:10px 10px; background:#000000;}
+#textblock {width:565px; height:75px; margin-left:15px; padding: 5px 5px; background:#0C0C0C; border:5px solid #FF00D6; border-radius:5px; border: 3px dashed #FF00D6;}
+#textblock2 {width:560px; height:40px; margin-left:18px; padding: 5px 5px; background:#0C0C0C; border:5px solid #FF00D6; border-radius:5px; border: 3px dashed #FF00D6; margin-top:30px;}
+#elembodygames {width:150px; height:22px; background: #000000;}
+#blockgame {width:560px; height:682px; background: #610F00; margin-top: -738px; margin-left: 8px; padding: 10px 16px; }
+#blockicongame {width:120px; height:200px; background: #57008C; margin-right: 15px; margin-top: 20px;}
+#blockgameforgames {overflow: auto; width:720px; height:374px; background: #57008C; margin-top: -440px; margin-left: 13px; padding: 10px 16px;}
+#zapis {width:750px; height:350px; background: #57008C; border-radius: 10px; margin: auto;}
+#blockotz {width: 610px; height: 410px; background: #000000; margin-top: 30px;}
+a {color:#57008C;}
+a:hover {text-decoration:none;}
+
+li.none-bg {background:none!important;}
+.telefon {float:right;}
+
+.stand_texts{	/*Стандратный текст*/
+font-size: 14px;
+color: white;
+font-family: Inter;
+font-style: normal;
+}
+
+.stand_texts2{	
+font-size: 10px;
+color: white;
+font-family: Inter;
+font-style: italic;
+}
+
+.stand_texts3{	
+font-size: 14px;
+color: white;
+font-family: Inter;
+font-style: italic;
+text-align: center;
+margin-top: 15px;
+text-decoration-line: underline;
+}
+
+.stand_texts4{	
+font-size: 20px;
+color: Black;
+font-family: Inter;
+text-align: center;
+}
+
+.stand_texts5{	
+font-size: 12px;
+color: White;
+font-family: Inter;
+font-style: italic;
+margin-top: 20px;
+}
+
+.textgames{
+font-size: 22px;
+color: White;
+font-family: Inter;
+font-style: bold;
+margin-top: 5px;	
+position: relative;
+z-index: 1;
+text-align: center;
+}
+
+.textgames2{
+font-size: 14px;
+color: White;
+font-family: Inter;
+font-style: italic;
+margin-top: 5px;	
+position: relative;
+z-index: 1;
+text-align: center;
+}
+
+.textotz{
+font-size: 30px;
+color: White;
+font-family: Inter;
+font-style: bold;
+margin-left: 30px;	
+}
+
+.fixed {        /*Закрепление элемента*/
+position: sticky;
+top: 0;
+}
+
+.vverhscroll {
+
+}
